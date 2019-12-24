@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="address" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="699b4cd5-f7ca-4f8e-a4c7-0475d5930235" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="addressbook" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="addressbook" type="feb32156:DbDataSourceImpl" />
+        <item name="addressbook: database" type="ccb7ac2a:MsImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="addressbook" type="feb32156:DbDataSourceImpl" />
+        <item name="addressbook: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="addressbook" type="feb32156:DbDataSourceImpl" />
+        <item name="addressbook: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="user1: table" type="63ab2ba1:MsImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1VQ6H78pegZOvbnQsRQIHSzEIAo" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\26824\Desktop\javaWEB\2018-2019-1-刘韬，万明-曾伟（6130116232）-web程序设计-大作业报告\2018-2019-1-刘韬，万明-曾伟（6130116232）-web程序设计-大作业报告\AddressBook-master\addressbook\src\main\resources\static\view" />
+      <recent name="C:\Users\26824\Desktop\javaWEB\2018-2019-1-刘韬，万明-曾伟（6130116232）-web程序设计-大作业报告\2018-2019-1-刘韬，万明-曾伟（6130116232）-web程序设计-大作业报告\AddressBook-master\addressbook\src\main\resources\static\images" />
+      <recent name="C:\Users\26824\Desktop\javaWEB\2018-2019-1-刘韬，万明-曾伟（6130116232）-web程序设计-大作业报告\2018-2019-1-刘韬，万明-曾伟（6130116232）-web程序设计-大作业报告\AddressBook-master\addressbook\src\main\resources\static\style" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AddressbookApplication">
+    <configuration name="AddressbookApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.addressbook.AddressbookApplication" />
+      <module name="addressbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddressbookApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="addressbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="com.java.addressbook.AddressbookApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddressbookApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="addressbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="com.java.addressbook.AddressbookApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.96" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="address">
+          <settings>
+            <option name="CONTEXT_PATH" value="/address" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_addressbook_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="22643" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AddressbookApplication" />
+      <item itemvalue="JUnit.AddressbookApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.AddressbookApplicationTests" />
+      <item itemvalue="Tomcat Server.Tomcat9" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AddressbookApplication" />
+        <item itemvalue="JUnit.AddressbookApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.AddressbookApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AddressbookApplicationTests_contextLoads - 2019.12.13 at 17h 50m 21s.xml">
+      <configuration name="AddressbookApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressbookApplicationTests_contextLoads - 2019.12.13 at 17h 51m 06s.xml">
+      <configuration name="AddressbookApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressbookApplicationTests - 2019.12.13 at 17h 55m 02s.xml">
+      <configuration name="AddressbookApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressbookApplicationTests_contextLoads - 2019.12.13 at 17h 56m 43s.xml">
+      <configuration name="AddressbookApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressbookApplicationTests - 2019.12.13 at 17h 57m 26s.xml">
+      <configuration name="AddressbookApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressbookApplicationTests_contextLoads - 2019.12.15 at 22h 05m 12s.xml">
+      <configuration name="AddressbookApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="157" key="FileChooserDialogImpl" timestamp="1577173243220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577173243220" />
+    <state x="630" y="308" key="Github.ShareDialog" timestamp="1577173182539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="630" y="308" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1577173182539" />
+    <state x="272" y="58" key="SettingsEditor" timestamp="1577173207136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577173207136" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/entity/User.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/service/UserService.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/dao/User_dao.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/dao/User_dao.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/entity/User.java</url>
+          <line>135</line>
+          <properties class="com.java.addressbook.entity.User" method="getLastLogin">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/service/UserService.java</url>
+          <line>70</line>
+          <properties class="com.java.addressbook.service.UserService" method="getUserInformation">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/service/UserService.java</url>
+          <line>27</line>
+          <properties class="com.java.addressbook.service.UserService" method="adminqueryUser">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/service/UserService.java</url>
+          <line>22</line>
+          <properties class="com.java.addressbook.service.UserService" method="adminregister">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/dao/User_dao.java</url>
+          <line>25</line>
+          <properties class="com.java.addressbook.dao.User_dao" method="adminregister">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/dao/User_dao.java</url>
+          <line>22</line>
+          <properties class="com.java.addressbook.dao.User_dao">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/static/view/changeStatus.html</url>
+          <line>45</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/static/view/register.html</url>
+          <line>62</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/entity/User.java</url>
+          <line>12</line>
+          <properties field="entranceTime" class="com.java.addressbook.entity.User" />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/entity/User.java</url>
+          <line>13</line>
+          <properties field="leaveTime" class="com.java.addressbook.entity.User" />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/addressbook/entity/User.java</url>
+          <line>9</line>
+          <properties field="birth" class="com.java.addressbook.entity.User" />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>addressbook:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>addressbook</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.microsoft.sqlserver:sqljdbc4:4.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

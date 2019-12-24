@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="addressbook">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.17">
+    <root id="1">
+      <ServerVersion>10.50.1600</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="DCLDemo">
+      <ObjectId>13</ObjectId>
+    </database>
+    <database id="3" parent="1" name="Demo">
+      <ObjectId>7</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="EX1025">
+      <ObjectId>17</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="FinalExam">
+      <ObjectId>23</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="Record">
+      <ObjectId>5</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="STUDENT">
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="8" parent="1" name="Test">
+      <ObjectId>15</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="Test4">
+      <ObjectId>8</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="Test5">
+      <ObjectId>9</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="11" parent="1" name="Test6">
+      <ObjectId>10</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="Test7">
+      <ObjectId>11</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="Test8">
+      <ObjectId>12</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="14" parent="1" name="Test9">
+      <ObjectId>14</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="15" parent="1" name="Web9">
+      <ObjectId>20</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="16" parent="1" name="addressbook">
+      <ObjectId>24</ObjectId>
+      <Current>1</Current>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+      <Fingerprint>24.43813/0628E534-AA61-4191-BE2B-C02FDE51971C@DESKTOP-5HIQK6H</Fingerprint>
+    </database>
+    <database id="17" parent="1" name="exam">
+      <ObjectId>21</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="18" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="19" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="20" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="21" parent="1" name="shopping">
+      <ObjectId>22</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="22" parent="1" name="student_management">
+      <ObjectId>16</ObjectId>
+    </database>
+    <database id="23" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="24" parent="1" name="web6">
+      <ObjectId>18</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="25" parent="1" name="web7">
+      <ObjectId>19</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <schema id="26" parent="16" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="27" parent="16" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="28" parent="16" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="29" parent="16" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="30" parent="16" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="31" parent="16" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="32" parent="16" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="33" parent="16" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="34" parent="16" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="35" parent="16" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="36" parent="16" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2019-12-19.01:17:33.983</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="37" parent="16" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="38" parent="16" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="39" parent="36" name="profession">
+      <ObjectId>2105058535</ObjectId>
+      <CreatedTimestamp>2019-12-16.06:29:39.580</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-18.22:32:14.363</ModifiedTimestamp>
+    </table>
+    <table id="40" parent="36" name="user1">
+      <ObjectId>398624463</ObjectId>
+      <CreatedTimestamp>2019-12-19.01:17:20.790</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-19.01:17:20.790</ModifiedTimestamp>
+    </table>
+    <column id="41" parent="39" name="pID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="39" name="profession">
+      <Position>2</Position>
+      <DataType>varchar(12 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="43" parent="39" name="PK__professi__DD36D5027F60ED59">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>pID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="44" parent="39" name="UQ__professi__F4EB6258023D5A04">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>profession</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="45" parent="39" name="PK__professi__DD36D5027F60ED59">
+      <ObjectId>5575058</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-12-16.06:29:39.590</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-16.06:29:39.590</ModifiedTimestamp>
+      <ColNames>pID</ColNames>
+      <UnderlyingIndexName>PK__professi__DD36D5027F60ED59</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="46" parent="39" name="UQ__professi__F4EB6258023D5A04">
+      <ObjectId>53575229</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-12-16.06:29:39.590</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-16.06:29:39.590</ModifiedTimestamp>
+      <ColNames>profession</ColNames>
+      <UnderlyingIndexName>UQ__professi__F4EB6258023D5A04</UnderlyingIndexName>
+    </key>
+    <column id="47" parent="40" name="userName">
+      <Position>1</Position>
+      <DataType>char(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="40" name="password">
+      <Position>2</Position>
+      <DataType>char(16 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="40" name="approvalStatus">
+      <Position>3</Position>
+      <DefaultConstraintName>DF__user1__approvalS__1B9317B3</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="40" name="name">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__user1__name__1C873BEC</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(10 char)|0s</DataType>
+    </column>
+    <column id="51" parent="40" name="birth">
+      <Position>5</Position>
+      <DefaultConstraintName>DF__user1__birth__1D7B6025</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="52" parent="40" name="profession">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__user1__professio__1E6F845E</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <column id="53" parent="40" name="className">
+      <Position>7</Position>
+      <DefaultConstraintName>DF__user1__className__1F63A897</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(10 char)|0s</DataType>
+    </column>
+    <column id="54" parent="40" name="entranceTime">
+      <Position>8</Position>
+      <DefaultConstraintName>DF__user1__entranceT__2057CCD0</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="55" parent="40" name="leaveTime">
+      <Position>9</Position>
+      <DefaultConstraintName>DF__user1__leaveTime__214BF109</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="56" parent="40" name="employmentUnit">
+      <Position>10</Position>
+      <DefaultConstraintName>DF__user1__employmen__22401542</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="57" parent="40" name="location">
+      <Position>11</Position>
+      <DefaultConstraintName>DF__user1__location__2334397B</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="58" parent="40" name="photo">
+      <Position>12</Position>
+      <DefaultConstraintName>DF__user1__photo__24285DB4</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <column id="59" parent="40" name="phoneNumber">
+      <Position>13</Position>
+      <DefaultConstraintName>DF__user1__phoneNumb__251C81ED</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(11 char)|0s</DataType>
+    </column>
+    <column id="60" parent="40" name="email">
+      <Position>14</Position>
+      <DefaultConstraintName>DF__user1__email__2610A626</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="61" parent="40" name="lastLogin">
+      <Position>15</Position>
+      <DefaultConstraintName>DF__user1__lastLogin__2704CA5F</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="62" parent="40" name="loginTimes">
+      <Position>16</Position>
+      <DefaultConstraintName>DF__user1__loginTime__27F8EE98</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="63" parent="40" name="description">
+      <Position>17</Position>
+      <DefaultConstraintName>DF__user1__descripti__28ED12D1</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <index id="64" parent="40" name="PK__user1__66DCF95D19AACF41">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>userName</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="65" parent="40" name="PK__user1__66DCF95D19AACF41">
+      <ObjectId>446624634</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-12-19.01:17:20.797</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-19.01:17:20.797</ModifiedTimestamp>
+      <ColNames>userName</ColNames>
+      <UnderlyingIndexName>PK__user1__66DCF95D19AACF41</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <default id="66" parent="40" name="DF__user1__approvalS__1B9317B3">
+      <ObjectId>462624691</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.797</ModifiedTimestamp>
+      <ColNames>approvalStatus</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <default id="67" parent="40" name="DF__user1__name__1C873BEC">
+      <ObjectId>478624748</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.797</ModifiedTimestamp>
+      <ColNames>name</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="68" parent="40" name="DF__user1__birth__1D7B6025">
+      <ObjectId>494624805</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.797</ModifiedTimestamp>
+      <ColNames>birth</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="69" parent="40" name="DF__user1__professio__1E6F845E">
+      <ObjectId>510624862</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.797</ModifiedTimestamp>
+      <ColNames>profession</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="70" parent="40" name="DF__user1__className__1F63A897">
+      <ObjectId>526624919</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.800</ModifiedTimestamp>
+      <ColNames>className</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="71" parent="40" name="DF__user1__entranceT__2057CCD0">
+      <ObjectId>542624976</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.800</ModifiedTimestamp>
+      <ColNames>entranceTime</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="72" parent="40" name="DF__user1__leaveTime__214BF109">
+      <ObjectId>558625033</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.800</ModifiedTimestamp>
+      <ColNames>leaveTime</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="73" parent="40" name="DF__user1__employmen__22401542">
+      <ObjectId>574625090</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.800</ModifiedTimestamp>
+      <ColNames>employmentUnit</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="74" parent="40" name="DF__user1__location__2334397B">
+      <ObjectId>590625147</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.800</ModifiedTimestamp>
+      <ColNames>location</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="75" parent="40" name="DF__user1__photo__24285DB4">
+      <ObjectId>606625204</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.800</ModifiedTimestamp>
+      <ColNames>photo</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="76" parent="40" name="DF__user1__phoneNumb__251C81ED">
+      <ObjectId>622625261</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.800</ModifiedTimestamp>
+      <ColNames>phoneNumber</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="77" parent="40" name="DF__user1__email__2610A626">
+      <ObjectId>638625318</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.800</ModifiedTimestamp>
+      <ColNames>email</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="78" parent="40" name="DF__user1__lastLogin__2704CA5F">
+      <ObjectId>654625375</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.803</ModifiedTimestamp>
+      <ColNames>lastLogin</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="79" parent="40" name="DF__user1__loginTime__27F8EE98">
+      <ObjectId>670625432</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.803</ModifiedTimestamp>
+      <ColNames>loginTimes</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <default id="80" parent="40" name="DF__user1__descripti__28ED12D1">
+      <ObjectId>686625489</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-12-19.01:17:20.803</ModifiedTimestamp>
+      <ColNames>description</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+  </database-model>
+</dataSource>

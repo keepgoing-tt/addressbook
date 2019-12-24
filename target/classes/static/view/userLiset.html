@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/homePage.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <table class="table table-striped" id="table">
+        <thead>
+        <tr>
+            <th>用户名</th>
+            <th>姓名</th>
+            <th>专业</th>
+            <th>班级</th>
+            <th>入校时间</th>
+            <th>离校时间</th>
+            <th>就业单位</th>
+            <th>所在地点</th>
+        </tr>
+        </thead>
+        <tbody id="userList">
+
+        </tbody>
+    </table>
+</div>
+<script>
+    $.ajax({
+        type: "POST",
+        url: "/getUserInformation",
+        contentType: 'application/json;charset=utf-8',
+        dataType: "json",
+        success:function (res) {
+            var list = document.querySelector('#userList');
+            res.forEach(user => {
+                var html = `
+                        <tr>
+                            <td>${user.userName}</td>
+                            <td>${user.name}</td>
+                            <td>${user.profession}</td>
+                            <td>${user.className}</td>
+                            <td>${user.entranceTime}</td>
+                            <td>${user.leaveTime}</td>
+                            <td>${user.employmentUnit}</td>
+                            <td>${user.location}</td>
+                        </tr>
+                  `
+                console.log(user.userName);
+                list.innerHTML += html;
+            })
+        }
+    })
+</script>
+</body>
+</html>

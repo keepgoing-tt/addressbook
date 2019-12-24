@@ -1,0 +1,8 @@
+com\java\addressbook\controller\UserController.class
+com\java\addressbook\filter\CorsConfig.class
+com\java\addressbook\entity\Util.class
+com\java\addressbook\AddressbookApplication.class
+com\java\addressbook\service\UserService.class
+com\java\addressbook\dao\User_dao.class
+com\java\addressbook\entity\User.class
+com\java\addressbook\filter\CharsetConfig.class
